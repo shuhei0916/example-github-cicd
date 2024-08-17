@@ -6,3 +6,8 @@ jobs:
         steps:
             - run: echo "${{ github.actor}}"
             - run: echo "${{ github.repository }}"
+            - run: echo "${{ runner.name }}"
+            - run: echo "${{ runner.os }}"
+            - run: echo "${{ runner.arch }}"
+            - run: echo "${{ runner.tool_cache }}"
+ 
