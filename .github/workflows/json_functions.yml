@@ -6,4 +6,4 @@ jobs:
         steps:
             - run: echo "$(CONTEXT)"
               env:
-                COTEXT: ${{ toJSON(github) }} # githubコンテキストをJSON文字列でダンプ（変換して出力）
+                CONTEXT: ${{ toJSON(github) }} # githubコンテキストをJSON文字列でダンプ（変換して出力）
