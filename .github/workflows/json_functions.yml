@@ -4,6 +4,6 @@ jobs:
     dump:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "$(CONTEXT)"
+            - run: echo "${CONTEXT}"
               env:
                 CONTEXT: ${{ toJSON(github) }} # githubコンテキストをJSON文字列でダンプ（変換して出力）
