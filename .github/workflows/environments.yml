@@ -12,7 +12,7 @@ jobs:
         runs-on: ubuntu-latest
         environment: ${{ inputs.environment-name }}
         env:
-            USERNAME: ${{ vars.USERNAME }}
+            USERNAME: ${{ vars.SHUHEI }}
             PASSWORD: ${{ secrets.PASSWORD }}
         steps:
             - run: echo "${USERNAME}"
