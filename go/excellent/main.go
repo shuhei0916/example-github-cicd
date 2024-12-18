@@ -13,4 +13,5 @@ func EvenOrOdd(number int) string {
 func main() {
 	fmt.Println(1 + 2)
 	fmt.Println(EvenOrOdd(57))
+	fmt.Println(EvenOrOdd(12))
 }
